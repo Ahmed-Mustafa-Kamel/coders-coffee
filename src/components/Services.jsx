@@ -94,7 +94,7 @@ const Services = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView={"visible"}
-        viewport={{ amount: 0.8, once: true }}
+        viewport={{ amount: 0.6, once: true }}
         className=" grid grid-cols-1  md:grid-cols-3 gap-4"
       >
         {servicesData.map((service) => (
