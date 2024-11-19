@@ -28,8 +28,9 @@ const servicesData = [
 ];
 
 const cardVariants = {
-  hidden: { y: 20 },
+  hidden: { opacity: 0, y: 20 },
   visible: {
+    opacity: 1,
     y: 0,
     transition: {
       type: "spring",
@@ -101,7 +102,6 @@ const Services = () => {
           <div className=" text-center p-4 space-y-6">
             <motion.img
               variants={cardVariants}
-              whileInView={{ opacity: 1 }}
               src={service.image}
               className="img-shadow2 max-w-[200px] mx-auto hover:scale-110 transition-all duration-300  cursor-pointer"
             />
