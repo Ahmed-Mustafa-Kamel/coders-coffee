@@ -114,7 +114,7 @@ const Hero = () => {
                 damping: 10,
                 delay: 1.4,
               }}
-              className=" text-lightOrange mt-[100px] md:mt-0 p-4 space-y-28"
+              className=" text-lightOrange mt-[100px] md:mt-0 p-4 space-y-28 hidden md:visible"
             >
               <h1 className=" opacity-0 text-7xl font-bold leading-tight ml-14">
                 Blvck Tumbler
