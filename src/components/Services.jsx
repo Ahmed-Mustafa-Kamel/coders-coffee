@@ -100,7 +100,8 @@ const Services = () => {
           // eslint-disable-next-line react/jsx-key
           <div className=" text-center p-4 space-y-6">
             <motion.img
-              whileInView={cardVariants}
+              variants={cardVariants}
+              whileInView={{ opacity: 1 }}
               src={service.image}
               className="img-shadow2 max-w-[200px] mx-auto hover:scale-110 transition-all duration-300  cursor-pointer"
             />
