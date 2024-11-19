@@ -91,7 +91,7 @@ const Footer = () => {
             }}
             className="space-y-6"
           >
-            <h1 className="">Follow us</h1>
+            <h1 className="text-xl font-semibold mb-2">Follow us</h1>
 
             <div className="flex items-center gap-3">
               <FaFacebook className=" text-3xl hover:scale-105 duration-300 transition-all" />
